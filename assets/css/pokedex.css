@@ -36,7 +36,6 @@
 
 .fairy{background-color:#D685AD;}
 
-
 .pokemons{
     display: grid;
     grid-template-columns: 1fr ;
@@ -45,7 +44,6 @@
     margin: 0;
     
 }
-
 
 .pokemon {
     display: flex;
@@ -81,7 +79,24 @@ margin: 1rem;
                 padding: .25rem  .5rem;
                 font-size: .625rem;
                 margin: .25rem 0;
-    
+}
+
+.pagination{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   padding: 1rem;
+}
+.pagination button{
+    color: white;
+    background-color: #6200b2;
+    border: none;
+    border-radius: 1rem;
+    padding: .25rem  .5rem;
+    font-size: 0.825rem;
+                font-size: .625rem;
+                margin: .25rem 0;
 }
 
 @media screen and (min-width: 388px) {
