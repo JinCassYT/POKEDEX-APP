@@ -5,3 +5,11 @@ class Pokemon {
     types = [] ;
     photo; 
 }
+class Ability{
+    name;
+    slot;
+    url;
+
+
+
+}

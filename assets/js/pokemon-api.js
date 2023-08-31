@@ -11,8 +11,17 @@ const [type] = types
 pokemon.types = types
 pokemon.type = type
 pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
+
+pokemon.abilities = pokeDetail.abilities.map((abilitySlot) =>{ 
+    const ability = new Ability()
+    ability.name = abilitySlot.ability.name
+    ability.slot = abilitySlot.slot
+    ability.url = abilitySlot.ability.url
+    return ability
+})
 return pokemon
 }
+
 
 pokeApi.getPokemonDetail = (pokemon) => {
     return fetch(pokemon.url)
