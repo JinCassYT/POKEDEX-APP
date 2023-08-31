@@ -42,7 +42,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    
 }
 
 .pokemon {
@@ -50,7 +49,6 @@
     flex-direction: column;
     color: white;
 padding: 1rem;
-
 border-radius: 1rem;
 margin: 1rem;
 
